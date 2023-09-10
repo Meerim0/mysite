@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.Logo,
+.Menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.Menu a {
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.Menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.Logo h1 {
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+    vertical-align: middle;
+}
+
+.Menu a:hover {
+    color: red;
+}
+
+.terms p {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    justify-content: center;
+}
